@@ -1,7 +1,7 @@
 {
   "name": "flow-to-jshint",
   "version": "0.1.0",
-  "description": "convert your flowtype report to jshint",
+  "description": "Convert Facebook's Flow report to JSHint",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
