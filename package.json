@@ -1,0 +1,25 @@
+{
+  "name": "flow-to-jshint",
+  "version": "0.1.0",
+  "description": "convert your flowtype report to jshint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:charliedowler/flow-to-jshint.git"
+  },
+  "keywords": [
+    "flow",
+    "flowtype",
+    "jshint",
+    "report"
+  ],
+  "author": "charliedowler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliedowler/flow-to-jshint/issues"
+  },
+  "homepage": "https://github.com/charliedowler/flow-to-jshint"
+}
