@@ -4,7 +4,7 @@
   "description": "Convert Facebook's Flow report to JSHint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/charliedowler/flow-to-jshint/issues"
   },
-  "homepage": "https://github.com/charliedowler/flow-to-jshint"
+  "homepage": "https://github.com/charliedowler/flow-to-jshint",
+  "devDependencies": {
+    "mocha": "~2.0.1",
+    "mocha-lcov-reporter": "~0.0.1",
+    "istanbul": "~0.3.2",
+    "event-stream": "~3.1.7",
+    "should": "~2.1.0"
+  }
 }
