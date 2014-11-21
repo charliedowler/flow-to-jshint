@@ -1,6 +1,6 @@
 {
   "name": "flow-to-jshint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert Facebook's Flow report to JSHint",
   "main": "index.js",
   "scripts": {
