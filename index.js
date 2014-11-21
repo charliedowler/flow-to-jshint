@@ -11,7 +11,7 @@ module.exports = function(result) {
         character: message.start,
         line: message.line
       };
-      report.file = path.basename(message.path);
+      report.file = message.path;
       parsed.push(report);
     });
   });
