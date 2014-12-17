@@ -1,4 +1,3 @@
-var path = require('path');
 module.exports = function(result) {
   var errors = result.errors;
   var parsed = [];
