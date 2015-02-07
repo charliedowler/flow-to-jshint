@@ -19,13 +19,13 @@ console.log(flowToJSHint(report));
        code: 'E',
        character: 20,
        line: 3 },
-    file: 'hello.js' },
+    file: 'path/to/hello.js' },
   { error:
     { reason: 'string',
        code: 'E',
        character: 11,
        line: 3 },
-    file: 'hello.js' }
+    file: 'path/to/hello.js' }
 ]
 ```
 
